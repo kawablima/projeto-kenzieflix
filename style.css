@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+
+body{
+    background-color: #000;
+}
+
+section{
+    display: block;
+    justify-content: center;
+    width: 1280px;
+    height: 700px;
+    text-align: center;
+    background-color: #121214;
+    margin: auto;
+    border-radius: 7px;
+}
+
+h2{
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    
+}
+
+button{
+    border: solid 1.5px #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 206px;
+    height: 50px;
+    background-color: #121214;
+    color: #fff;
+    margin-top: 136px;
+}
+
+button:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.usuario{
+    width: 160px;
+    height: 160px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.usuario:hover{
+    border: solid 2px #fff;
+    border-radius: 8px;
+}
+
+.imagem:hover{
+    transform: scale(1.2);
+}
+
+img{
+    border-radius: 8px;
+}
+
+figcaption{
+    color: #9C9C9C;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+}
+
+#nome1{
+    padding: 16px 55px;
+}
+
+#nome2{
+    padding: 16px 63.5px;
+}
+
+#nome3{
+    padding: 16px 54px;
+}
+
+#nome4{
+    padding: 16px 35px;
+}
+
